@@ -5,7 +5,7 @@ body,
 body > div {
   height: 100vh;
   width: 100vw;
-  background-color: beige;
+  background-color: rgb(252, 252, 240);
 }
 #container {
   height: 100%;
@@ -45,7 +45,7 @@ body > div {
   justify-content: center;
 }
 .home {
-  background-color: #fcfbba;
+  background-color: #fdfb88;
   color: black;
 }
 .red {

@@ -4,7 +4,6 @@ import MainContainer from './mainContainer'
 
 function App() {
 
-
   return (
     <>
       <div id="container">

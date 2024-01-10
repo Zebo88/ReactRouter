@@ -6,6 +6,7 @@ body > div {
   height: 100vh;
   width: 100vw;
   background-color: rgb(252, 252, 240);
+  background-image: url("images/dotnoise-light-grey.png");
 }
 #container {
   height: 100%;
@@ -47,18 +48,22 @@ body > div {
 .home {
   background-color: #fdfb88;
   color: black;
+  background-image: url("images/large-leather.png");
 }
 .red {
   background-color: #cb4e63;
   color: #92021a;
+  background-image: url("images/greyzz.png");
 }
 .blue {
   background-color: #275db3;
   color: #002b6f;
+  background-image: url("images/felt.png");
 }
 .purple {
   background-color: #8227b3;
   color: rgb(58, 0, 110);
+  background-image: url("images/first-aid-kit.png");
 }
 .marble {
   background-image: url("images/white_marble.jpeg");

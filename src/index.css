@@ -1,0 +1,68 @@
+*{ 
+  margin: 0;
+}
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+  background-color: beige;
+}
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container > div {
+  display: flex;
+}
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 800;
+  font-size: 14pt;
+}
+.link{
+  color:black;
+  text-decoration: none;
+}
+.link:hover{
+  color: #545454;
+  text-decoration: none;
+}
+.link:visited{
+  color:black;
+  text-decoration: none;
+}
+#main-section {
+  flex-grow: 1;
+  font-family: 'Pacifico', cursive;
+}
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  background-color: #fcfbba;
+  color: black;
+}
+.red {
+  background-color: #cb4e63;
+  color: #92021a;
+}
+.blue {
+  background-color: #275db3;
+  color: #002b6f;
+}
+.purple {
+  background-color: #8227b3;
+  color: rgb(58, 0, 110);
+}
+.marble {
+  background-image: url("images/white_marble.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(253, 198, 30);
+}
